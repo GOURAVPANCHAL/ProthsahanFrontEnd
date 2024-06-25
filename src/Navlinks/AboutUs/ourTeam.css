@@ -1,0 +1,31 @@
+select {
+  padding: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .textArea {
+    max-width: 100%;
+  }
+}
+p {
+  color: gray;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+h4 {
+  letter-spacing: 1px;
+}
+input {
+  border: 1px solid lightgray !important;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+input:focus {
+  outline: none !important;
+}
+select:focus {
+  outline: none !important;
+}
+select {
+  border: 1px solid lightgray !important;
+  border-radius: 5px;
+}

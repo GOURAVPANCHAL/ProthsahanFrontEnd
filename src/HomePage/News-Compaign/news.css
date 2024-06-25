@@ -1,0 +1,87 @@
+
+/* .zoomImage{
+    transition: transform.2s;
+}
+.zoomImage:hover{
+    
+  transform: scale(0.9); 
+} */
+.cardd{
+  padding: 1rem;
+  transition: 0.5s;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.cardd:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  background-color: white;
+}
+.heading{
+  text-shadow: 2px 2px white;
+    font-size: 70px;
+    line-height: 100px;
+    color: darkorange;
+    font-weight: 600;
+}
+.description{
+  text-shadow: 2px 2px darkred;
+   font-size: 35px;
+   margin-bottom: 3rem;
+   color: white;
+   font-weight: 600;
+ }
+.contentt{
+  background-image: url('../images/vote.jpg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0 !important;
+}
+.hindiContentOverlay{
+  background-color: rgba(0, 0, 0, 0.893);
+  height: 100%;
+  padding: 3rem;
+  width: 100%;
+}
+.mainContent{
+  position: relative;
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+  top: 20%;
+}
+.clickme{
+  border: none;
+  border-radius: 0px;
+  background-color: darkgreen !important;
+  padding: 1rem 1rem;
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContent{
+    position: relative;
+    max-width: 100%;
+    top: 7%;
+  }
+  .heading{
+    text-shadow: 1px 1px white;
+    line-height: 50px;
+  }
+  .description{
+    text-shadow: 2px 2px darkred;
+     font-size: 30px;
+     margin-bottom: 2rem;
+     color: white;
+     font-weight: 600;
+     line-height: 60px;
+   }
+   .contentt{
+    height: 100%;
+  }
+  .hindiContentOverlay{
+    height: 100%;
+    padding: 1rem;
+  }
+}

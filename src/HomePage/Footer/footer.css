@@ -1,0 +1,30 @@
+ul li{
+    list-style: none;
+}
+ul{
+    padding: 0px !important;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    line-height: 30px;
+}
+ul li a:hover{
+    color: rgb(0, 200, 81);
+}
+.footerLi{
+    list-style-type: disc !important;
+}
+
+h3{
+    margin-bottom: 2rem !important;
+}
+@media only screen and (max-width: 600px) {
+    .footerImage{
+        margin-bottom: 1rem;
+    }
+    .footerBottom{
+        display: block !important;
+    }
+}

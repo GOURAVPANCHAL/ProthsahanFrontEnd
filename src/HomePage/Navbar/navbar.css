@@ -1,0 +1,81 @@
+.nav-link {
+  color: white !important;
+  font-size: 17px !important;
+  font-family: sans-serif;
+}
+.nav-link:hover {
+  color: rgb(0, 200, 81) !important;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: rgb(0, 200, 81) !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.divmain{
+  text-align: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    border: none !important;
+  }
+  .logo img {
+    width: 80%;
+  }
+  .yuth img{
+    display: none;
+  }
+  .navbar{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .navmain{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .divmain{
+    text-align: start;
+    display: flex;
+  }
+  .logo{
+    display: flex;
+  }
+
+}
+
+.icons {
+  padding: 1rem;
+  width: 15%;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a {
+  color: white;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}

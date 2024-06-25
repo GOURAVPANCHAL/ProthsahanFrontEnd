@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.bgimage{
+    background-image: url('../images/volentier.png');
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: RGBA(0, 0, 0, 0.62);
+    width: 100%;
+    height: 434px;
+}
+.youtubevideo{
+    width: 100%;
+    height: 400px;
+}
+.aboutMainDiv{
+  padding: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .youtubevideo{
+    width: 430px;
+    height: 300px;
+  } 
+  .heading{
+    margin-top: 0rem;
+    font-size: 30px;
+  }
+  .aboutMainDiv{
+    padding: 5px;
+  }
+  .overlay{
+    height: 100%;
+  }
+  .heading{
+    font-size: 35px !important;
+  }
+  .bgimage{
+    height: 100%;
+}
+  
+}
+.box{
+    text-align: center;
+    background: rgba(0, 100, 0, 0.948);
+    padding: 1rem;
+    color: white;
+    margin: 2px;
+}
+.box:hover{
+    background-color: rgba(0, 100, 0, 0.811);
+    color: white;
+}
